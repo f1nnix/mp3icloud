@@ -4,7 +4,7 @@ Tiny script for audio ID3v2 metatag normalization, which allows imported to Appl
 
 ## Why
 
-When you upload some audiobook to Apple Music Library, it common than all MP3 files have no porper ID3v2 tags. So, after imprting all of them look like "Alice In Wonderland 000" and chapters order is ruined. This script allows to rename tags for all files in directory and set some name, which can preserve order:
+When you upload some audiobook to Apple Music Library, it's common than all MP3 files have no porper ID3v2 tags. So, after imprting all of them look like "Alice In Wonderland 000" and chapters order is ruined. This script allows to rename tags for all files in directory and set some name, which can preserve order:
 
 1. name with file index, like `01`, `02`, `03`, ...
 2. keep original filename if, for example, it has chapter and title.  
