@@ -17,7 +17,7 @@ def get_files_in_directory(path='.', ext='mp3') -> List[str]:
 def update_meta(filepath, index, args) -> None:
     audio: EasyID3 = EasyID3(filepath)
 
-    audio['title'] = Path(filepath).stem if args.use_filenames else index
+    audio['title'] = Path(filepath).stem if args.use_filenames else f'{index + 1}. {args.album}'
     audio['album'] = args.album
     audio['artist'] = args.artist
     audio['genre'] = args.genre
